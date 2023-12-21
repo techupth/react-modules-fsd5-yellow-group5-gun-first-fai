@@ -182,6 +182,13 @@ function FAQ() {
 function Button(props) {
   return <button className={props.buttonStyle}>{props.buttonText}</button>;
 }
+import {
+  Header,
+  MainContent,
+  ProductSection,
+  Footer,
+  FAQ,
+} from "./components/contentComponents";
 
 function App() {
   return (
